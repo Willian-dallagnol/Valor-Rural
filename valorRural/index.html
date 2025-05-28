@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valor Rural</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Valor Rural</div>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#servicos">Produtos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <h1>Bem-vindo à Valor Rural </h1>
+    <p>Soluções modernas para uma agricultura mais eficiente e sustentável.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Por mais que nova, a Valor Rural oferece os melhores insumos agrícolas, com foco em inovação e produtividade no campo.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Produtos</h2>
+    <div class="grid-servicos">
+      <div class="servico">Fertilizantes Orgânicos</div>
+      <div class="servico">Defensivos Agrícolas</div>
+      <div class="servico">Sementes Certificadas</div>
+      <div class="servico">Tecnologia para Irrigação</div>
+    </div>
+  </section>
+
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <blockquote>“A Valor Rural mudou a minha produção! Produtos de qualidade e atendimento excepcional.” - Fazenda Toca da Onça </blockquote>
+    <blockquote>“Com os insumos da Valor Rural, aumentamos nossa produtividade em 20%.” - Familia Zanneti</blockquote>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Endereço: Av. São Paulo, 1084, São Pedro do Iguaçú, Paraná</p>
+    <p>Telefone: (45) 9 8433-3570</p>
+    <p>Email: valor.rual.spi@gmail.com</p>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Valor Rural. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
